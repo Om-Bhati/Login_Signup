@@ -1,0 +1,23 @@
+Help : 
+
+Backend : 
+- cd backend
+- npm i 
+- create .env file 
+
+- PORT = "3000"
+- KEY = "jwtsecretkey"
+- Mongo_URL = "" // write your Mongo_URL
+
+- npm run dev
+
+Frontend : 
+- cd frontend 
+- npm i 
+- npm run dev
+
+
+If You want to create from scratch 
+
+Backend : npm i express dotenv mongoose cors cookie-parser bcrypt jsonwebtoken
+Frontend : npm i axios react-router-dom
